@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+include "koneksi_db.php";
 
 $nama = $_POST["nama"];
 $email = $_POST["email"];

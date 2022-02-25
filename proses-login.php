@@ -2,7 +2,7 @@
 $inputEmail = $_POST["email"];
 $inputPassword = $_POST["password"];
 
-include "koneksi.php";
+include "koneksi_db.php";
 $sql = "SELECT * FROM siswa WHERE email = '$inputEmail'";
 $dataSiswa = mysqli_query($connection, $sql);
 $kolom = mysqli_fetch_assoc($dataSiswa);
