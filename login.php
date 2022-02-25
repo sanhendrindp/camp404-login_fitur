@@ -20,6 +20,7 @@
         <input type="password" name="password">
         <br><br>
         <input type="submit" name="tombolLogin" value="Login">
+        <button><a href="registrasi.php">Daftar</a></button>
     </form>
 </body>
 
