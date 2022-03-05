@@ -10,6 +10,7 @@
 
 <body>
     <h2>Login</h2>
+    <p>Silakan login terlebih dahulu, lakukan registrasi jika belum mendaftar sebelumnya</p>
     <form action="proses-login.php" method="POST">
         <label>Email</label>
         <br>
